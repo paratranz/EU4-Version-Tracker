@@ -1,0 +1,23 @@
+{
+  "name": "ck2-original",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paratranz/CK2-Chinese-Localisation.git"
+  },
+  "author": "BruceCzK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paratranz/CK2-Chinese-Localisation/issues"
+  },
+  "homepage": "https://github.com/paratranz/CK2-Chinese-Localisation#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "glob": "^7.1.3"
+  }
+}
