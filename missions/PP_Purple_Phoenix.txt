@@ -8,6 +8,7 @@ byz_pp_balkans_north_italy = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -36,28 +37,28 @@ byz_pp_balkans_north_italy = {
 			east_adriatic_coast_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			rascia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			serbia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			bosnia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -99,14 +100,14 @@ byz_pp_balkans_north_italy = {
 			carinthia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			croatia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -141,7 +142,7 @@ byz_pp_balkans_north_italy = {
 			venetia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -180,6 +181,7 @@ byz_pp_italian = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -202,30 +204,23 @@ byz_pp_italian = {
 				name = "roman_italy"
 				duration = 5475
 			}
-			liguria_area = {
-				limit = {
-					NOT = { owned_by = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
 			tuscany_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			emilia_romagna_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			central_italy_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -283,21 +278,21 @@ byz_pp_italian = {
 			}
 			lombardy_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			piedmont_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			liguria_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -352,6 +347,7 @@ byz_pp_maritime = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -374,7 +370,7 @@ byz_pp_maritime = {
 		effect = {
 			corsica_sardinia_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -411,14 +407,14 @@ byz_pp_maritime = {
 		effect = {
 			tripolitania_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			djerba_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -451,14 +447,14 @@ byz_pp_maritime = {
 		effect = {
 			tunisia_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			kabylia_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -491,14 +487,14 @@ byz_pp_maritime = {
 		effect = {
 			lower_andalucia_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			upper_andalucia_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -531,7 +527,7 @@ byz_pp_maritime = {
 		effect = {
 			northern_morocco_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_claim = ROOT
@@ -565,6 +561,7 @@ byz_pp_religion = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -603,14 +600,14 @@ byz_pp_religion = {
 			aleppo_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			syria_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -645,7 +642,7 @@ byz_pp_religion = {
 			palestine_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -682,21 +679,21 @@ byz_pp_religion = {
 			delta_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			bahari_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			vostani_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -737,28 +734,28 @@ byz_pp_religion = {
 			said_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
 			al_wahat_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
 			gulf_of_arabia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
 			cyrenaica_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
@@ -838,6 +835,7 @@ byz_pp_east = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -873,21 +871,21 @@ byz_pp_east = {
 			karaman_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			rum_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			cukurova_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -924,14 +922,14 @@ byz_pp_east = {
 			dulkadir_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			erzurum_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}

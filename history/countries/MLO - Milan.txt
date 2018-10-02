@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = lombard
 religion = catholic
@@ -122,9 +123,15 @@ add_army_professionalism = 0.05
 	}
 }
 
-1447.8.13 = { government = ambrosian_republic } # The Ambrosian Republic
+1447.8.13 = {
+	government = republic
+	add_government_reform = ambrosian_republic
+} # The Ambrosian Republic
 
-1450.3.27 = { government = feudal_monarchy }
+1450.3.27 = {
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
 
 1450.3.27 = {
 	monarch = {
@@ -255,7 +262,7 @@ add_army_professionalism = 0.05
 
 1535.1.1 = { leader = {	 name = "Marquis del Vasto"     	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1546.3.31 } }
 
-1796.11.15 = { government = constitutional_republic }
+1796.11.15 = { set_legacy_government = constitutional_republic }
 
 1796.11.15 = {
 	monarch = {

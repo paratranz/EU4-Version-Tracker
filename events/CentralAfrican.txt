@@ -923,6 +923,7 @@ country_event = {
 		has_dlc = "Mare Nostrum"
 		tag = BUG
 		has_ruler_flag = kateregga_seized_power
+		has_government_attribute = heir
 	}
 
 	mean_time_to_happen = {

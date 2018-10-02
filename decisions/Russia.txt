@@ -42,6 +42,9 @@ country_decisions = {
 	
 	establish_russian_patriarchate = {
 		potential = {
+			NOT = {
+				has_mission = rus_patriarchate_mission
+			}
 			tag = RUS
 			normal_or_historical_nations = yes
 			OR = {

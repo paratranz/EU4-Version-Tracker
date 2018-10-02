@@ -1,4 +1,4 @@
-government = constitutional_republic
+government = republic
 religion = catholic
 primary_culture = cosmopolitan_french
 technology_group = western

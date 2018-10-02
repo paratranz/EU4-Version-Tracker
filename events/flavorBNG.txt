@@ -126,16 +126,26 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = BNG
-		religion_group = muslim
-		is_year = 1500
-		any_owned_province = {
-			OR = {
-				province_id = 2039 #Sunderbans
-				province_id = 561 #Bengal Delta
-				province_id = 564 #Dakka
-				province_id = 568 #Chittagong
-				province_id = 2046 #Nasirabad
+		OR = {
+			has_country_flag = bng_delta_flag
+			AND = {
+				NOT = {
+					has_mission = bng_clear_delta
+				}
+				tag = BNG
+				religion_group = muslim
+				is_year = 1500
+				any_owned_province = {
+					OR = {
+						province_id = 2039 #Sunderbans
+						province_id = 561 #Bengal Delta
+						province_id = 564 #Dakka
+						province_id = 568 #Chittagong
+						province_id = 2046 #Nasirabad
+						province_id = 4475
+						province_id = 4474
+					}
+				}
 			}
 		}
 	}
@@ -154,8 +164,11 @@ country_event = {
 					province_id = 564 #Dakka
 					province_id = 568 #Chittagong
 					province_id = 2046 #Nasirabad
+					province_id = 4474
+					province_id = 4475
 				}
 	 		}
+			add_base_production = 1
 			add_province_modifier = {
 				name = "bng_delta_reclaimed"
 				duration = -1
@@ -441,6 +454,42 @@ country_event = {
 				type = cb_vassalize_mission
 				months = 1825
 			}
+		}
+	}
+}
+
+# The Tiger Triumphant
+# By Daniel Tolman
+
+country_event = {
+	id = flavor_bng.12
+	title = flavor_bng.12.t
+	desc = flavor_bng.12.d
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "flavor_bng.12.a"
+		if = {
+			limit = {
+				NOT = {
+					government_rank = 3
+				}
+			}
+			set_government_rank = 3
+		}
+		add_prestige = 20
+		capital_scope = {
+			add_base_tax = 4
+			add_base_production = 3
+			add_base_manpower = 3
+		}
+		add_country_modifier = {
+			name = "tiger_triumphant"
+			duration = 18250
 		}
 	}
 }

@@ -103,6 +103,12 @@ country_event = {
 	option = {
 		name = flavor_zan.2.a	#Let us create such a Chronicle.
 		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_years_of_income = -0.1
 		add_legitimacy = 5
 		add_prestige = 5
@@ -267,7 +273,11 @@ country_event = {
 
 	trigger = {
 		tag = ZAN #Will trigger upon first ruler change.
-		government = monarchy
+		OR = {
+			government = monarchy
+			government = tribal
+		}
+		has_government_attribute = heir
 	}
 	
 	option = {

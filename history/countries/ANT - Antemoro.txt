@@ -1,5 +1,6 @@
 #Antemoro and Antonosy as well as minor Muslim groups in South Eastern Madagascar.
-government = tribal_democracy #Aristocratic states, rulers elected from one of four clans for life.
+government = tribal
+add_government_reform = tribal_kingdom #Aristocratic states, rulers elected from one of four clans for life.
 government_rank = 1
 primary_culture = madagasque
 religion = sunni

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = romagnan
 religion = catholic
@@ -31,7 +32,8 @@ fixed_capital = 105 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1545.10.20 = { government = despotic_monarchy }
+1545.10.20 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1547.9.11 = {
 	monarch = {
@@ -115,7 +117,8 @@ fixed_capital = 105 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1622.3.6 = { government = despotic_monarchy }
+1622.3.6 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1630.9.17 = {
 	heir = {
@@ -189,7 +192,9 @@ fixed_capital = 105 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1731.1.21 = { government = enlightened_despotism }
+1731.1.21 = { government = monarchy
+# add_government_reform = letat_cest_moi_reform 
+}
 
 1731.1.21 = {
 	monarch = {

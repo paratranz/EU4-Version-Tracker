@@ -314,6 +314,12 @@ country_event = {
 	option = { # Give them our support
 		name = "flavor_eng.EVTOPTA9106"
 		ai_chance = { factor = 75 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_adm_power = 50
 		random_owned_province = {
 			spawn_rebels = {
@@ -358,6 +364,12 @@ country_event = {
 	option = {				# Yes we need one
 		name = "flavor_eng.EVTOPTA9107"
 		ai_chance = { factor = 90 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = "eng_court_star_chamber"
 			duration = -1
@@ -881,6 +893,12 @@ country_event = {
 		}
 		add_inflation = -3
 		add_innovativeness_small_effect = yes
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		define_advisor = {
 			type = treasurer
 			name = "Thomas Gresham"
@@ -2164,6 +2182,12 @@ country_event = {
 		name = "EXCELLENT"
 		add_adm_power = 10
 		add_prestige = 10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_innovativeness_small_effect = yes
 	}
 }
@@ -2200,6 +2224,12 @@ country_event = {
 		name = "EXCELLENT"
 		add_adm_power = 10
 		add_prestige = 10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_innovativeness_small_effect = yes
 	}
 }
@@ -2236,6 +2266,12 @@ country_event = {
 		name = "EXCELLENT"
 		add_adm_power = 10
 		add_prestige = 10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_innovativeness_small_effect = yes
 	}
 }
@@ -2272,6 +2308,12 @@ country_event = {
 		name = "EXCELLENT"
 		add_adm_power = 10
 		add_prestige = 10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_innovativeness_big_effect = yes
 	}
 }
@@ -2427,13 +2469,14 @@ country_event = {
 	}
 
 	trigger = {
-		has_country_flag = had_war_of_the_roses
+		has_country_flag = war_of_the_roses_was_had
 		OR = {
 			dynasty = York
 			dynasty = Lancaster
 		}
 		is_lesser_in_union = no
-		NOT = { had_country_flag = { flag = had_war_of_the_roses days = 1095 } } #If you're under a union and get out of it quickly enough you'll still get this but otherwise you won't.
+		has_government_attribute = heir
+		NOT = { had_country_flag = { flag = war_of_the_roses_was_had days = 3650 } } #If you're under a union and get out of it quickly enough you'll still get this but otherwise you won't.
 	}
 
 	option = {

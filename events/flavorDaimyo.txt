@@ -30,7 +30,7 @@ country_event = {
 
 	trigger = {
 		NOT = { is_year = 1560 }
-		government = shogunate
+		has_reform = shogunate
 		owns = 1819 #Tosa
 		NOT = { tag = HSK }
 		is_at_war = no
@@ -70,6 +70,7 @@ country_event = {
 				who = ROOT
 				modifier = released_vassal
 			}
+			adopt_reform_progress = ROOT
 			define_ruler = {
 				name = "Motochika"
 				dynasty = "Chosokabe"
@@ -106,7 +107,7 @@ country_event = {
 	fire_only_once = yes #No resurrections 
 
 	trigger = {
-		government = shogunate
+		has_reform = shogunate
 		is_year = 1490
 		NOT = { is_year = 1515 }
 		owns = 1028 #Musashi
@@ -148,6 +149,7 @@ country_event = {
 				who = ROOT
 				modifier = released_vassal
 			}
+			adopt_reform_progress = ROOT
 			define_ruler = {
 				name = "Soun"
 				dynasty = "Hojo"
@@ -189,7 +191,7 @@ country_event = {
 	fire_only_once = yes #No resurrections 
 
 	trigger = {
-		government = shogunate
+		has_reform = shogunate
 		is_year = 1490
 		NOT = { is_year = 1550 }
 		owns = 1825 #Aki
@@ -232,6 +234,7 @@ country_event = {
 				who = ROOT
 				modifier = released_vassal
 			}
+			adopt_reform_progress = ROOT
 			define_ruler = {
 				name = "Motonari" 
 				dynasty = "Mori"
@@ -275,7 +278,7 @@ country_event = {
 
 	trigger = {
 		tag = SBA
-		government = daimyo
+		has_reform = daimyo
 		num_of_cities = 2
 		OR = {
 			has_regency = no
@@ -338,11 +341,12 @@ country_event = {
 
 	trigger = {
 		tag = HTK
-		government = daimyo
+		has_reform = daimyo
 		has_heir = yes
 		num_of_cities = 2
 		NOT = { is_year = 1490 }
 		is_year = 1460
+		has_government_attribute = heir
 	}
 	
 	immediate = {
@@ -399,11 +403,12 @@ country_event = {
 
 	trigger = {
 		tag = HSK
-		government = daimyo
+		has_reform = daimyo
 		has_heir = no
 		num_of_cities = 4
 		is_year = 1460
 		NOT = { is_year = 1520 }
+		has_government_attribute = heir
 	}
 	
 	immediate = {
@@ -539,7 +544,7 @@ country_event = {
 
 	trigger = {
 		tag = HSK
-		government = daimyo
+		has_reform = daimyo
 		has_heir = yes
 		num_of_cities = 2
 		owns = 1820
@@ -585,7 +590,7 @@ country_event = {
 
 	trigger = {
 		tag = UES
-		government = daimyo
+		has_reform = daimyo
 		is_year = 1480
 		NOT = { is_year = 1530 }
 		owns = 1028 #Musashi
@@ -623,7 +628,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		government = shogunate
+		has_reform = shogunate
 		owns = 1019 #Harima
 		num_of_cities = 5
 	}
@@ -649,6 +654,7 @@ country_event = {
 				who = ROOT
 				modifier = released_vassal
 			}
+			adopt_reform_progress = ROOT
 			define_ruler = { dynasty = "Akamatsu" }
 		}
 	}
@@ -914,7 +920,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		government = shogunate
+		has_reform = shogunate
 		is_year = 1630 #
 		NOT = { is_year = 1650 } #
 		owns = 1017 #Suo
@@ -957,7 +963,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		government = shogunate
+		has_reform = shogunate
 		is_year = 1700
 		NOT = { is_year = 1730 }
 	}
@@ -1238,7 +1244,7 @@ country_event = {
 
 	trigger = {
 		tag = ODA
-		government = shogunate
+		has_reform = shogunate
 		is_at_war = no
 		capital = 1020
 	}
@@ -1278,7 +1284,7 @@ country_event = {
 	trigger = {
 		tag = ODA
 		capital = 1030
-		NOT = { government = shogunate } #Too far removed from history
+		NOT = { has_reform = shogunate } #Too far removed from history
 		is_year = 1550
 		NOT = { is_year = 1560 }
 	}
@@ -1301,7 +1307,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = flavor_daimyo.20.a #Crush him.
+		name = flavor_daimyo.23.a #Crush him.
 		1030 = {
 			spawn_rebels = {
 				type = pretender_rebels
@@ -1327,6 +1333,7 @@ country_event = {
 		tag = ODA
 		is_year = 1555
 		NOT = { is_year = 1565 }
+		has_government_attribute = heir
 	}
 	
 	mean_time_to_happen = {

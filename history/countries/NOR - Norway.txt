@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 primary_culture = norwegian
 religion = catholic
 technology_group = western
@@ -34,7 +35,8 @@ capital = 17 #Akershus
 
 1537.1.1 = { religion = protestant } # Christian III decrees Lutheranism as State Church
 
-1670.2.10 = { government = despotic_monarchy }
+1670.2.10 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1814.2.16 = {
 	monarch = {

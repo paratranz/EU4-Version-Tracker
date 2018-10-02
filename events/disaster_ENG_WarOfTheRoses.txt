@@ -15,8 +15,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-
+		
+	immediate = {
+		set_country_flag = had_war_of_the_roses
+	}
 	
 	option = {		# Support the House of Lancaster
 		name = war_of_the_roses.1.a
@@ -856,8 +858,7 @@ country_event = {
 			remove_province_modifier = rebel_refugees
 			remove_province_modifier = rebel_stronghold
 			
-			# Set Flag
-			set_country_flag = had_war_of_the_roses
+			set_country_flag = war_of_the_roses_ended
 		}
 	}
 	
@@ -953,10 +954,6 @@ country_event = {
 			remove_province_modifier = wotr_local_support_for_york
 			remove_province_modifier = rebel_refugees
 			remove_province_modifier = rebel_stronghold
-			
-			
-			# Set Flag
-			set_country_flag = had_war_of_the_roses
 		}
 		end_disaster = war_of_the_roses
 	}
@@ -1012,9 +1009,6 @@ country_event = {
 			remove_province_modifier = wotr_local_support_for_york
 			remove_province_modifier = rebel_refugees
 			remove_province_modifier = rebel_stronghold
-			
-			# Set Flag
-			set_country_flag = had_war_of_the_roses
 		}
 		end_disaster = war_of_the_roses
 	}
@@ -1150,7 +1144,7 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			
+			set_country_flag = war_of_the_roses_was_had
 			# Clear Flags
 			clr_country_flag = supports_house_of_lancaster
 			clr_country_flag = supports_house_of_york
@@ -1168,9 +1162,6 @@ country_event = {
 			remove_province_modifier = rebel_refugees
 			remove_province_modifier = rebel_stronghold
 			
-			
-			# Set Flag
-			set_country_flag = had_war_of_the_roses
 		}
 		end_disaster = war_of_the_roses
 	}

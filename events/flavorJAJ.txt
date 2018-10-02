@@ -46,6 +46,7 @@ country_event = {
 						area = konkan_area
 						area = kanara_area
 					}
+					has_port = yes
 				}
 				if = {
 					limit = {
@@ -65,6 +66,7 @@ country_event = {
 					religion = sunni
 					claim = 100
 				}
+				adopt_reform_progress = ROOT
 			}
 		}
 	}

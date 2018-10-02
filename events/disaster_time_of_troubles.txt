@@ -688,6 +688,9 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+	immediate = {
+		set_country_flag = rus_had_time_of_troubles
+	}
 	
 	option = {		# A stronger COUNTRY will emerge!
 		name = "flavor_rus.EVTOPTA1110"

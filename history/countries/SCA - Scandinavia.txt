@@ -1,4 +1,4 @@
-government = administrative_monarchy
+government = monarchy
 technology_group = western
 primary_culture = swedish
 religion = protestant

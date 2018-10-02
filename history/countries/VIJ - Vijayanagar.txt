@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = nayankara_reform
 primary_culture = kannada
 religion = hinduism
 technology_group = indian
@@ -419,7 +420,7 @@ capital = 541	# Vijayanagara
 	}
 }
 
-1565.1.26 = { capital = 1949 } # Chandragiri (Rayalaseema province)
+1565.1.26 = { capital = 4420 } # Chandragiri
 
 1565.1.26 = {
 	monarch = {
@@ -445,6 +446,10 @@ capital = 541	# Vijayanagara
 		DIP = 0
 		MIL = 0
 	}
+}
+
+1570.1.1 = {
+	capital = 1949
 }
 
 1571.1.1 = {

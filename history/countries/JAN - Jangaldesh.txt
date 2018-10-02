@@ -1,4 +1,5 @@
-government = tribal_kingdom
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = rajput
 religion = hinduism
@@ -45,7 +46,8 @@ fixed_capital = 512 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1488.1.1 = { government = despotic_monarchy } #Bikaner founded
+1488.1.1 = { government = monarchy
+add_government_reform = autocracy_reform } #Bikaner founded
 
 1504.1.1 = {
 	monarch = {

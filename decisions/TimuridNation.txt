@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
 			NOT = { dynasty = "Timurid" }
 			NOT = { is_year = 1490 }
 			government = monarchy
@@ -26,8 +27,8 @@ country_decisions = {
 				primary_culture = uzbehk
 				primary_culture = turkmeni
 			}
-			NOT = { government = tribal_federation }
-			NOT = { government = feudal_theocracy }
+			NOT = { has_reform = tribal_federation }
+			NOT = { has_reform = feudal_theocracy }
 			religion_group = muslim
 		}
 		provinces_to_highlight = {
@@ -89,6 +90,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_timurids_flag }
 			OR = {
 				ai = no
@@ -116,6 +118,22 @@ country_decisions = {
 			}
 			religion_group = muslim
 			dynasty = "Timurid"
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 429
+				province_id = 2213
+				province_id = 2218
+				province_id = 454
+				province_id = 446
+				province_id = 451
+				province_id = 445
+				province_id = 428
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			NOT = { exists = TIM }

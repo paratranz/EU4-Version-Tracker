@@ -51,6 +51,7 @@ monarch_names = {
 	"Linda #0" = -30
 	"Niklas #0" = 40 
 	"David #0" = 20 
+	"Peter #0" = 10
 	"Aline #0" = -20
 	"Rikard #0" = 20
 	"Jimmy #0" = 20
@@ -58,7 +59,8 @@ monarch_names = {
 	"Carsten #0" = 20 
 	"Marko #0" = 20 
 	"Michael #0" = 20 
-	"Samuel #0 = 10"
+	"Samuel #0" = 10
+	"Mathieu #0" = 10
 	"Sebastian #0" = 10 
 	"Joel #0" = 10
 	"Marcus #0" = 10
@@ -119,9 +121,11 @@ leader_names = {
 	Lind
 	Mannetje
 	Millen
+	Nicholson
 	Norrevik
 	Olsson
 	Palmqvist
+	Ropert
 	Rönn
 	Sarell
 	Schießl
@@ -131,7 +135,7 @@ leader_names = {
 	Tammpere
 	Tiger
 	Toll
-	Tollman
+	Tolman
 	Tronde
 	Thulin
 	Zetterman

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = dutch
@@ -39,7 +40,10 @@ capital = 4383 #Haag
 
 1580.1.1 = { decision = enlist_privateers }
 
-1581.1.1 = { government = dutch_republic }
+1581.1.1 = { 
+	government = republic
+	add_government_reform = dutch_republic
+}
 
 1584.7.10 = {
 	monarch = {
@@ -214,7 +218,7 @@ capital = 4383 #Haag
 	}
 }
 
-1747.11.22 = { government = administrative_monarchy }
+1747.11.22 = { set_legacy_government = administrative_monarchy }
 1750.1.1 = { leader = {	name = "Johan Zoutman"		type = admiral	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1793.5.7 } }
 
 1751.10.22 = {
@@ -238,7 +242,7 @@ capital = 4383 #Haag
 		dip = 2
 		mil = 2
 	}
-	government = constitutional_republic
+	set_legacy_government = constitutional_republic
 	government_rank = 1
 }
 
@@ -266,7 +270,7 @@ capital = 4383 #Haag
 		dip = 3
 		mil = 2
 	}
-	government = constitutional_monarchy # Napoleonic monarchy
+	set_legacy_government = constitutional_monarchy # Napoleonic monarchy
 	government_rank = 2
 }
 
@@ -290,5 +294,5 @@ capital = 4383 #Haag
 		dip = 3
 		mil = 2
 	}
-	government = administrative_monarchy # House of Orange restored
+	set_legacy_government = administrative_monarchy # House of Orange restored
 }

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = nayankara_reform
 government_rank = 1
 primary_culture = kannada
 religion = hinduism
@@ -461,7 +462,8 @@ fixed_capital = 533 # Cannot move capital away from this province & no power cos
 		leader = {	name = "Haydar 'Alî"          	type = general	fire = 4	shock = 4	manuever = 3	siege = 1 }
 	}
 	religion = sunni
-	government = iqta
+	government = monarchy
+	add_government_reform = indian_sultanate_reform
 	religious_school = hanafi_school
 }
 
@@ -502,5 +504,6 @@ fixed_capital = 533 # Cannot move capital away from this province & no power cos
 		MIL = 0
 	}
 	religion = hinduism
-	government = feudal_monarchy
+	government = monarchy
+	add_government_reform = feudalism_reform
 }

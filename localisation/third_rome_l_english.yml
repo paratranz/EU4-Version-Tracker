@@ -1,6 +1,8 @@
 ﻿l_english:
  veche_republic:0 "Veche Republic"
  veche_republic_desc:0 "This state is governed by a Veche, a council with the highest legislative and judicial authority consisting of Boyars, Merchants and even commoners."
+ veche_republic_legacy:0 "Veche Republic"
+ veche_republic_legacy_desc:0 "This state is governed by a Veche, a council with the highest legislative and judicial authority consisting of Boyars, Merchants and even commoners."
  russian_famine:0 "Famine"
  desc_russian_famine:0 "A local famine has impoverished this province."
  st_nicholas_icon_gratitude:0 "Religious Gratitude"

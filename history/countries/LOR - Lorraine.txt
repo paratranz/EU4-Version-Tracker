@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = burgundian
 religion = catholic
@@ -157,7 +158,8 @@ capital = 189	# Nancy
 	}
 }
 
-1556.10.2 = { government = despotic_monarchy }
+1556.10.2 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1563.11.8 = {
 	heir = {
@@ -251,7 +253,7 @@ capital = 189	# Nancy
 	}
 }
 
-1624.9.1 = { government = administrative_monarchy }
+1624.9.1 = { set_legacy_government = administrative_monarchy }
 
 1634.1.1 = {
 	join_league = catholic
@@ -384,4 +386,5 @@ capital = 189	# Nancy
 	}
 }
 
-1766.2.22 = { government = despotic_monarchy }
+1766.2.22 = { government = monarchy
+add_government_reform = autocracy_reform }

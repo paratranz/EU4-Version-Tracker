@@ -1,4 +1,5 @@
-government = daimyo
+government = monarchy
+add_government_reform = daimyo
 government_rank = 1
 primary_culture = togoku
 religion = shinto
@@ -196,7 +197,9 @@ capital = 4360	# Mikawa
 1590.8.10   = { capital = 1028 } # Musashi (Edo)
 
 1603.3.24 = {
-	government = shogunate
+	capital = 1020 # for reform
+	government = monarchy
+add_government_reform = shogunate
 	government_rank = 2
 }
 

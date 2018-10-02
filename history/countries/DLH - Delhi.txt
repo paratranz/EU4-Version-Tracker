@@ -1,10 +1,10 @@
-government = iqta
+government = monarchy
+add_government_reform = indian_sultanate_reform
 primary_culture = kanauji
 religion = sunni
 technology_group = indian
 capital = 522	# Delhi
 fixed_capital = 522 # Cannot move capital away from this province & no power cost to move to it
-add_accepted_culture = panjabi
 religious_school = hanafi_school
 
 1435.1.1 = {
@@ -51,9 +51,9 @@ religious_school = hanafi_school
 		dynasty = "Lodi"
 		culture = afghani
 		ADM = 4
-		DIP = 4
-		MIL = 5
-		leader = { name = "Bahlûl Ludi"		type = general	fire = 4	shock = 4	manuever = 4	siege = 1 }
+		DIP = 5
+		MIL = 6
+		leader = { name = "Bahlûl Lodi"		type = general	fire = 4	shock = 4	manuever = 4	siege = 1 }
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = strict_personality

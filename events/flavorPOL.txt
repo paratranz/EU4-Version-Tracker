@@ -213,7 +213,7 @@ country_event = {
 	
 	is_triggered_only = yes	
 	trigger = {
-		government = elective_monarchy
+		has_reform = elective_monarchy
 		NOT = { has_country_flag = pol_pact_conventa_flag }
 		OR = {
 			NOT = { ADM = 2 }
@@ -1234,8 +1234,9 @@ country_event = {
 		}
 		add_prestige = -100
 		if = {
-			limit = { NOT = { government = celestial_empire } }
-			change_government = oligarchic_republic
+			limit = { NOT = { has_reform = celestial_empire } }
+			change_government = republic
+			add_government_reform = oligarchy_reform
 		}
 		define_ruler = {
 			regency = yes
@@ -1447,9 +1448,10 @@ country_event = {
 		add_legitimacy = 50
 		if = {
 			limit = {
-				government = elective_monarchy
+				has_reform = elective_monarchy
 			}
-			change_government = despotic_monarchy
+			remove_government_reform = elective_monarchy
+			set_legacy_government = administrative_monarchy
 			remove_heir = yes
 			add_absolutism = 10
 		}
@@ -1706,7 +1708,7 @@ country_event = {
 		tag = POL
 		is_subject = no
 		has_regency = yes
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		LIT = {
 			ai = yes
 			exists = yes
@@ -1779,7 +1781,7 @@ country_event = {
 	
 	option = {
 		name = flavor_pol.20.a
-		change_government = elective_monarchy
+		add_government_reform = elective_monarchy
 	}
 }
 

@@ -16,7 +16,7 @@ country_event = {
 	
 	trigger = {
 		tag = OMA
-		government = feudal_theocracy
+		has_reform = feudal_theocracy
 		dynasty = "Nabhan"
 	}
 	

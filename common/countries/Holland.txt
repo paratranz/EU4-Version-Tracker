@@ -109,7 +109,7 @@ ship_names = {
 	"Drie Gebroeders" "David's Drie Helden" "Drie Koningen" "d'Unij" "Elf Steden" "Engel Gabriel" "Frederik Hendrik" "Gewapenden Ruijter" "Gouden Dolfijn" "Gouden Leeuw"
 	"Gouden Maan" "Graaf Willem" "Groot Hollandia" "Groote Liefde" "Halve Maan" "Hof Sint Janskerken" "Hof van Rheenen" "Hof van Souburg" "Hof van Zeeland"
 	"Hollandsche Tuin" "Huijs te Zwieten" "Huis te Jaarsveld" "Huis te Kruiningen" "Huis te Oostewijk" "Huis te Zwieten" "Huis Tijdverdrijf" "Huis van Groeningen"
-	"Huis van Nassau" "Huis van Raaphorst" "Kasteel van Medemblik" "Katwijk op Zee" "Keurvorst van Brandenburg" "Keurvorst van Saksen" "Keurvorstin van Brandenburg"
+	"Huis van Nassau" "Huis van Raaphorst" "Kasteel van Medemblik" "Katwijk aan Zee" "Keurvorst van Brandenburg" "Keurvorst van Saksen" "Keurvorstin van Brandenburg"
 	"Klein Frisia" "Klein Hollandia" "Klein Zutphen" "Kleine Harder" "Koning William" "Louisa Hendrika" "Maagd van Enkhuizen" "Marcus Curtius" "Postiljon van Smyrna"
 	"Prins Friso" "Prins Hendrik Casimir" "Prins Hendrik" "Prins Maurits" "Prins te Paard" "Prins van Portugal" "Prins Willem" "Prinses Aemilia" "Prinses Albertina"
 	"Prinses Maria" "Prinses Roijael Maria" "Provincie Utrecht" "Provincie van Holland" "Raadhuis van Haarlem" "Roode Leeuw" "Salomons Oordeel" "Schager Roos"

@@ -24,6 +24,7 @@ country_event = {
 		has_leader = "János Hunyadi"
 		is_year = 1445
 		NOT = { is_year = 1470 }
+		has_government_attribute = heir
 	}
 	
 	mean_time_to_happen = {
@@ -116,6 +117,7 @@ country_event = {
 			government = monarchy
 			has_regency = no
 		}
+		has_government_attribute = heir
 	}
 	
 	mean_time_to_happen = {
@@ -230,10 +232,27 @@ country_event = {
 	
 	option = {
 		name = flavor_hun.10.a
-		add_casus_belli = {	
-			target = HUN
-			type = cb_restore_personal_union
-			months = 120
+		if = { #Only add if we haven't got one already.
+			limit = {
+				has_casus_belli = {
+					type = cb_restore_personal_union
+					target = HUN
+				}
+			}
+			tooltip = {
+				add_casus_belli = {	
+					target = HUN
+					type = cb_restore_personal_union
+					months = 120
+				}
+			}
+		}
+		else = {
+			add_casus_belli = {	
+				target = HUN
+				type = cb_restore_personal_union
+				months = 120
+			}
 		}
 	}
 }
@@ -261,7 +280,13 @@ country_event = {
 	
 	option = {
 		ai_chance = { factor = 50 }
-		name = flavor_hun.4.a	
+		name = flavor_hun.4.a
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_adm_power = 100
 		random_owned_province = {
 			add_base_tax = 1
@@ -271,6 +296,12 @@ country_event = {
 	option = {
 		ai_chance = { factor = 50 }
 		name = flavor_hun.4.b
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_dip_power = 100
 		random_owned_province = {
 			add_base_manpower = 1
@@ -304,6 +335,12 @@ country_event = {
 	option = {
 		name = flavor_hun.5.a	
 		add_prestige = 10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_papal_influence = 10
 		1772 = {
 			add_base_production = 1
@@ -569,6 +606,12 @@ country_event = {
 	option = {
 		name = flavor_hun.12.a
 		add_adm_power = 100
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_prestige = 5
 		define_advisor = {
 			type = statesman
@@ -865,7 +908,6 @@ country_event = {
 		custom_tooltip = flavor_hun.16.a.tt
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			custom_tooltip = flavor_hun.16.a.cossacks.tt
@@ -877,7 +919,6 @@ country_event = {
 		add_mil_power = 50
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -909,7 +950,6 @@ country_event = {
 		add_prestige = -10
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			custom_tooltip = abolishing_black_army_tooltip
@@ -933,7 +973,6 @@ country_event = {
 		add_years_of_income = -1
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -969,7 +1008,6 @@ country_event = {
 		add_mil_power = 75
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			custom_tooltip = end_of_black_army_tooltip
@@ -1147,7 +1185,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -1352,7 +1389,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -1380,7 +1416,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {

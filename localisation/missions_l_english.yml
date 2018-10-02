@@ -76,7 +76,7 @@
  conquer_kotte_title:0 "A base in India - Kotte"
  conquer_kotte_desc:0 "The legendary wealth of the Indies has carried men on super human voyages of discovery. In order to tap this wealth we need a base on the Indian subcontinent. The Merchant community of our country is insisting that taking control of the city of Kotte on the island of Ceylon would provide us with an ideal base for an Indian adventure."
  conquer_kochin_title:0 "A base in India - Kochin"
- conquer_kochin_desc:0 "The legendary wealth of the Indies has carried men on super human voyages of discovery. In order to tap this wealth we need a base on the Indian subcontinent. The Merchant community of our country is insisting that taking control of the city of Kochin on the Malabar coast would provide us with an ideal base for an Indian adventure."
+ conquer_kochin_desc:0 "The legendary wealth of the Indies has carried men on super human voyages of discovery. In order to tap this wealth we need a base on the Indian subcontinent. The Merchant community of our country is insisting that taking control of the city of Kochin on the Malabar Coast would provide us with an ideal base for an Indian adventure."
  make_base_on_spice_islands_title:0 "Establish $COUNTRY$ in the Spice Islands"
  make_base_on_spice_islands_desc:0 "The East Indies are the center of the world's spice produce, great wealth is there for the nation that expands the spice trade. The spice must flow!"
  protect_religious_minority_title:0 "Protect our Brethren in $PROVINCENAME$"
@@ -240,7 +240,7 @@
  complete_mission:0 "Complete this mission and take your reward"
  mission_already_completed:0 "You have already completed this mission"
  HEADER_MISSIONS:0 "Missions"
- HEADER_DECISIONS:0 "Decisions"
+ HEADER_DECISIONS:2 "Decisions and Policies"
  #Start New Missions
  secure_the_imperial_crown_title:0 "Secure Electors"
  secure_the_imperial_crown_desc:0 "Ever since Rudolph, Count of Habsburg, was crowned Holy Roman Emperor and maneuvered his family into the Duchy of Austria, it has been the goal of all its Dukes to become Emperor. We must do what we can to ensure that the Empire has the stability it needs, an Austrian Emperor."
@@ -358,4 +358,4 @@
  persian_khorasan_desc:0 "The last centuries has seen Eastern Persia blossom as a center of learning and culture. As an empire to unite the Persian cultural sphere we must ensure that the great cities of Khorasan: Herat, Nishapur and Mashad, are properly consolidated within the Persian realm."
  persian_afghanistan_title:0 "Graveyard of Empires"
  persian_afghanistan_desc:0 "The mountainous lands of the Afghans guard the way into the rich plains of India. By expanding into this region we can both protect ourselves from the raids of the unruly Afghans and open future routes of expansion to the east."
- 
+ have_vaisyas_in_5_provinces:0 "Grant 5 §YCenters of Trade§!, of at least level 2, to the §YVaishyas§!."

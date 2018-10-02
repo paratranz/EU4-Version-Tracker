@@ -228,6 +228,12 @@ country_event = {
 	option = { 
 		name = flavor_eth.6.a
 		ai_chance = { factor = 90 }
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_ruler_modifier = { name = eth_zara_yakob_centralisation }
 	}
 	option = {
@@ -1037,6 +1043,7 @@ country_event = {
 		is_lesser_in_union = no
 		has_heir = no
 		government = monarchy
+		has_government_attribute = heir
 	}
 	
 	mean_time_to_happen = {
@@ -1109,6 +1116,7 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
+				has_government_attribute = queen
 			}
 			define_consort = {
 				name = "Eleni"

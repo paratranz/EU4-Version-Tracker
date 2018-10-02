@@ -747,7 +747,7 @@ country_event = {
 			tag = TUS
 			tag = LAN
 		}
-		NOT = { government = celestial_empire }
+		NOT = { has_reform = celestial_empire }
 		had_country_flag = {
 			flag = tus_savonarola_seized_power
 			days = 365
@@ -777,14 +777,16 @@ country_event = {
 							government = republic
 						}
 					}
-					change_government = oligarchic_republic
+					change_government = republic
+					set_legacy_government = oligarchic_republic
 				}
 				define_ruler = {
 					dynasty = "de' Medici"
 				}
 			}
 			2 = {
-				change_government = theocratic_government
+				change_government = theocracy
+				set_legacy_government = theocratic_government
 			}
 		}
 	}

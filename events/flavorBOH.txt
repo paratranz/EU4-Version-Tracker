@@ -405,7 +405,7 @@ country_event = {
 		is_religion_enabled = protestant
 		religion = catholic
 		NOT = { religion_years = { protestant = 100 } }
-		NOT = { government = papal_government }
+		NOT = { has_reform = papacy_reform }
 		any_owned_province = {
 			religion = catholic
 			culture = czech

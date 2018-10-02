@@ -4,6 +4,7 @@ byz_western = {
 	ai = yes
 	potential = {
 		tag = BYZ
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -48,21 +49,21 @@ byz_western = {
 			bulgaria_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			hudavendigar_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}	
 			aydin_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -73,14 +74,14 @@ byz_western = {
 				albania_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				macedonia_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
@@ -105,14 +106,14 @@ byz_western = {
 			apulia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 			calabria_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -187,6 +188,7 @@ byz_generic_slot_2 = {
 	generic = no #Needs to be replaced by similar missions for Purple Phoenix
 	ai = yes
 	potential = {
+		NOT = { map_setup = map_setup_random }
 		tag = BYZ
 		NOT = { has_dlc = "Purple Phoenix" }
 	}
@@ -211,7 +213,7 @@ byz_generic_slot_2 = {
 			venetia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
@@ -251,6 +253,7 @@ byz_east = {
 	ai = yes
 	
 	potential = {
+		NOT = { map_setup = map_setup_random }
 		tag = BYZ
 	}
 	
@@ -282,49 +285,49 @@ byz_east = {
 				germiyan_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				ankara_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				karaman_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				kastamonu_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				rum_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				thrace_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				erzurum_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
@@ -337,21 +340,21 @@ byz_east = {
 				germiyan_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				ankara_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
 				kastamonu_area = {
 					limit = {
 						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
@@ -365,6 +368,7 @@ byz_generic_slot_5 = {
 	generic = no #Needs to be replaced by similar missions for Purple Phoenix
 	ai = yes
 	potential = {
+		NOT = { map_setup = map_setup_random }
 		tag = BYZ
 		NOT = { has_dlc = "Purple Phoenix" }
 	}

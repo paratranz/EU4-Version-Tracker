@@ -1,4 +1,4 @@
-government = constitutional_monarchy
+government = republic
 primary_culture = hannoverian
 religion = protestant
 technology_group = western
@@ -15,4 +15,5 @@ capital = 81	# Kassel
 		dip = 3
 		mil = 2
 	}
+	set_legacy_government = constitutional_monarchy
 }

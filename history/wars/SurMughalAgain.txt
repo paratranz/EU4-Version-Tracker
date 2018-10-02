@@ -8,10 +8,10 @@ war_goal = {
 
 1554.7.1 = {
 	add_attacker = MUG
-	add_defender = PUN
+	add_defender = SRH
 }
 
 1554.12.1 = {
 	rem_attacker = MUG
-	rem_defender = PUN
+	rem_defender = SRH
 }

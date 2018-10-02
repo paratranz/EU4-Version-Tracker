@@ -1,72 +1,9 @@
-government = iqta
+government = monarchy
+add_government_reform = indian_sultanate_reform
 government_rank = 1
 technology_group = indian
-religion = hinduism	#Until 1710
+religion = sunni
 primary_culture = tamil
-
-#Nayaks of Gingee
-1535.1.1 = {
-	monarch = {
-		name = "Chennappa"
-		dynasty = "Tupakula"
-		adm = 5
-		dip = 5
-		mil = 5
-	}
-}
-
-1535.1.1 = {
-	heir = {
-		name = "Gangama"
-		monarch_name = "Gangama"
-		dynasty = "Tupakula"
-		birth_date = 1525.1.1
-		death_date = 1612.1.1
-		claim = 95
-		adm = 5
-		dip = 6
-		mil = 5
-	}
-}
-
-1565.1.26 = {
-	capital = 1947	# Carnatic
-}
-
-1590.1.1 = {
-	monarch = {
-		name = "Gangama"
-		dynasty = "Tupakula"
-		adm = 5
-		dip = 6
-		mil = 5
-	}
-}
-
-1590.1.1 = {
-	heir = {
-		name = "Venkata"
-		monarch_name = "Venkata Krishnappa"
-		dynasty = "Tupakula"
-		birth_date = 1580.1.1
-		death_date = 1660.1.1
-		claim = 95
-		adm = 5
-		dip = 5
-		mil = 3
-	}
-}
-
-1612.1.1 = {
-	monarch = {
-		name = "Venkata Krishnappa"
-		dynasty = "Tupakula"
-		adm = 5
-		dip = 5
-		mil = 3
-	}
-}
-#annexed by Bijapur
 
 #Nawabs of the Carnatic
 1710.1.1 = {

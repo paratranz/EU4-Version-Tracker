@@ -2,7 +2,7 @@
 
 graphical_culture = indiangfx
 
-color = { 237  204  3 }
+color = { 246 196 24 }
 
 historical_score = 100
 

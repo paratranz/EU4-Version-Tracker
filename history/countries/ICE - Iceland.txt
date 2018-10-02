@@ -1,4 +1,4 @@
-government = oligarchic_republic
+government = republic
 primary_culture = norwegian
 religion = catholic
 technology_group = western

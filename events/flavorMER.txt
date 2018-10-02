@@ -74,6 +74,7 @@ country_event = {
 					MIL = 4
 					ADM = 4
 				}
+				adopt_reform_progress = ROOT
 			}
 		}
 	}

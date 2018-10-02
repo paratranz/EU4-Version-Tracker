@@ -24,7 +24,7 @@ country_event = {
 		any_known_country = {
 			is_part_of_hre = yes
 			religion = protestant
-			government = theocratic_government
+			government = theocracy
 		}
 	}
 
@@ -38,7 +38,7 @@ country_event = {
 			limit = {
 				is_part_of_hre = yes
 				religion = protestant
-				government = theocratic_government
+				government = theocracy
 			}
 			add_opinion = {
 				who = ROOT
@@ -255,8 +255,8 @@ country_event = {
 		has_heir = yes
 		NOT = { 
 			OR = {
-				government = elective_monarchy
-				government = steppe_horde
+				has_reform = elective_monarchy
+				has_reform = steppe_horde
 			}
 		}
 		NOT = { has_country_flag = heir_adm_education }
@@ -2065,7 +2065,7 @@ country_event = {
 
 	option = {
 		name = "tyw_events.46.a"
-		create_general = 50
+		create_general = { tradition = 50 }
 		set_country_flag = won_capital_battle
 	}
 }

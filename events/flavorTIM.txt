@@ -129,7 +129,7 @@ country_event = {
 					primary_culture = turkmeni
 				}
 				NOT = { primary_culture = azerbaijani }
-				NOT = { government = tribal_federation }
+				NOT = { has_reform = tribal_federation }
 				religion_group = muslim
 			}
 		custom_tooltip = flavor_tim.2.b.tt

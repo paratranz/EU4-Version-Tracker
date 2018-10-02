@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = saxon
 religion = catholic
@@ -444,7 +445,8 @@ capital = 63	# Erfurt
 	}
 }
 
-1746.1.1 = { government = despotic_monarchy }
+1746.1.1 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1748.1.19 = {
 	monarch = {
@@ -503,7 +505,8 @@ capital = 63	# Erfurt
 		dip = 5
 		mil = 3
 	}
-	government = enlightened_despotism
+	government = monarchy
+# add_government_reform = letat_cest_moi_reform
 }
 
 1783.2.2 = {

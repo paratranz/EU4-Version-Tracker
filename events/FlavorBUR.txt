@@ -1628,7 +1628,8 @@ country_event = {
 			}
 			release = NED
 			NED = {
-				change_government = dutch_republic
+				change_government = republic
+				add_government_reform = dutch_republic
 			}
 			every_owned_province = {
 				limit = {
@@ -2158,21 +2159,23 @@ country_event = {
 			if = {
 				limit = {
 					government = monarchy
-					NOT = { government = celestial_empire }
+					NOT = { has_reform = celestial_empire }
 				}
 				random = {
 					chance = 20
-					change_government = merchant_republic
+					change_government = republic
+					add_government_reform = merchant_republic
 				}
 			}
 			if = {
 				limit = {
 					government = monarchy
-					NOT = { government = celestial_empire }
+					NOT = { has_reform = celestial_empire }
 				}
 				random = {
 					chance = 20
-					change_government = administrative_republic
+					change_government = republic
+					add_government_reform = administrative_republic
 				}
 			}
 		}

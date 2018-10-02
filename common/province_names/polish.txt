@@ -31,7 +31,6 @@
 72 = "Bryzgowia"
 73 = "Tyrol"
 75 = "Alzacja"
-76 = "Monachium"
 78 = "Moguncja"
 80 = "Trewir"
 81 = "Hesja"

@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 primary_culture = serbian
@@ -118,7 +119,10 @@ fixed_capital = 138 # Cannot move capital away from this province & no power cos
 }
 
 #Prince-Bishops of Montenegro
-1516.1.1 = { government = theocratic_government }
+1516.1.1 = {
+	government = theocracy
+	add_government_reform = leading_clergy_reform
+}
 
 1516.1.1 = {
 	monarch = {

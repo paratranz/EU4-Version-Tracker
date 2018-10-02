@@ -41,6 +41,8 @@
  MIGRATE_DESC:0 "When migrating, $COUNTRY$ will lose control over $PROVINCE$. They will move on to a chosen neighboring province. $COUNTRY$ will also earn a boost in monarch power when migrating."
  native_council:0 "Native Council"
  native_council_desc:0 "One or more tribes ruled by a council of hereditary positions. Its members present unanimous decisions after lengthy discussions, although one chieftain has the honor of being the official spokesperson."
+ native_council_legacy:0 "Native Council"
+ native_council_legacy_desc:0 "One or more tribes ruled by a council of hereditary positions. Its members present unanimous decisions after lengthy discussions, although one chieftain has the honor of being the official spokesperson."
  native_council_ruler:0 "Chief"
  native_council_ruler_female:0 "Chief"
  st_lawrence:0 "Gulf of St. Lawrence"

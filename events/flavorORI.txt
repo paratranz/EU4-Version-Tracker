@@ -18,10 +18,18 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = ORI
-		dynasty = "Gajapati"
-		owns = 552 #Puri
-		NOT = { is_year = 1560 }
+		OR = {
+			has_country_flag = ori_jagannath_mission_flag
+			AND = {
+				NOT = {
+					has_mission = ori_jagannath_mission
+				}
+				dynasty = "Gajapati"
+				owns = 552 #Puri
+				NOT = { is_year = 1560 }
+				tag = ORI
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -31,6 +39,11 @@ country_event = {
 	
 	option = { 
 		name = flavor_ori.1.a 
+		trigger = {
+			NOT = {
+				has_country_flag = ori_jagannath_mission_flag
+			}
+		}
 		ai_chance = { factor = 90 }
 		add_years_of_income = -0.1	#Temple donations
 		add_country_modifier = {
@@ -40,8 +53,23 @@ country_event = {
 	}
 	option = {
 		name = flavor_ori.1.b 
+		trigger = {
+			NOT = {
+				has_country_flag = ori_jagannath_mission_flag
+			}
+		}
 		ai_chance = { factor = 10 }
 		add_stability_or_adm_power = yes #From keeping the status quo and supporting other deities.
+	}
+	option = {
+		name = flavor_ori.1.a
+		trigger = {
+			has_country_flag = ori_jagannath_mission_flag
+		}
+		add_country_modifier = {
+			name = ori_jagannath_cult_dh
+			duration = -1
+		}
 	}
 	
 }
@@ -416,6 +444,9 @@ country_event = {
 		tag = ORI
 		NOT = { dynasty = "Gajapati" }
 		has_country_modifier = ori_jagannath_cult
+		NOT = {
+			has_country_flag = ori_jagannath_mission_flag
+		}
 	}
 
 	mean_time_to_happen = {

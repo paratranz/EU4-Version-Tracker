@@ -16,12 +16,21 @@ country_event = {
 		religion = hinduism
 		has_dlc = "Wealth of Nations"
 		has_regency = no
-		NOT = { has_personal_deity = shiva }
-		NOT = { has_personal_deity = ganesha }
-		NOT = { has_personal_deity = surya }
-		NOT = { has_personal_deity = ganga }
-		NOT = { has_personal_deity = shakti }
-		NOT = { has_personal_deity = vishnu }
+		OR = {
+			has_country_flag = brahmin_deity_interaction
+			AND = {
+				NOT = { has_personal_deity = shiva }
+				NOT = { has_personal_deity = ganesha }
+				NOT = { has_personal_deity = surya }
+				NOT = { has_personal_deity = ganga }
+				NOT = { has_personal_deity = shakti }
+				NOT = { has_personal_deity = vishnu }
+			}
+		}
+	}
+
+	after = {
+		clr_country_flag = brahmin_deity_interaction
 	}
 
 	mean_time_to_happen = {
@@ -66,6 +75,9 @@ country_event = {
 
 	# Not ready
 	option = {
+		trigger = {
+			NOT = { has_country_flag = brahmin_deity_interaction }
+		}
 		name = "hindu_events.1.h"
 	}
 }
@@ -2003,6 +2015,7 @@ country_event = {
 		has_regency = no
 		government = monarchy
 		has_heir = no
+		has_government_attribute = heir
 	}
 
 	mean_time_to_happen = {
@@ -2053,7 +2066,7 @@ country_event = {
 
 	option = {
 		name = "hindu_events.49.a"
-		create_general = -30
+		create_general = { tradition = -30 }
 		add_prestige = 10
 	}
 

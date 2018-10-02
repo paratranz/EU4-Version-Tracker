@@ -50,7 +50,7 @@
 1055 = "Verhneangarsk"
 1057 = "Verhneudinsk"
 1834 = "Uriev"
-1850 = "Vladivostok"
+2106 = "Vladivostok"
 1936 = "Kovno"
 1952 = "Zakarpathia"
 1962 = "Izhevsk"

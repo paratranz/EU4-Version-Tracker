@@ -28,6 +28,12 @@ country_event = {
 	
 	option = {		# Issue it
 		name = "flavor_fra.EVTOPTA9100"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		capital_scope = {
 			add_base_tax = 1
 			add_province_modifier = {
@@ -47,11 +53,6 @@ country_event = {
 				duration = 3650
 			}
 		}
-	}
-	option = {		# Let it be
-		name = "flavor_fra.EVTOPTB9100"
-		add_stability_or_adm_power = yes
-		add_innovativeness_small_effect = yes
 	}
 }
 
@@ -247,6 +248,12 @@ country_event = {
 
 	option = {		# Take Control of the Guilds
 		name = "flavor_fra.EVTOPTA3106"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_years_of_income = 0.33
 	}
 	option = {		# Do not mess with the Guilds
@@ -490,6 +497,12 @@ country_event = {
 
 	option = {		# An Excellent Minister!
 		name = "EXCELLENTMINISTER"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_adm_power = 100
 		add_mil_power = 100
 		add_dip_power = 100
@@ -586,7 +599,12 @@ country_event = {
 
 	option = {		# Yes we need it
 		name = "flavor_fra.EVTOPTA3123"
-	
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_years_of_income = -0.5
 
 		add_country_modifier = {
@@ -623,6 +641,12 @@ country_event = {
 
 	option = {		# An Excellent Minister!
 		name = "EXCELLENTMINISTER"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_adm_power = 25
 		add_dip_power = 25
 		add_mil_power = 25
@@ -636,6 +660,12 @@ country_event = {
 	}
 	option = {		# Concentrate on Economic Reforms
 		name = "flavor_fra.EVTOPTA3124"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = colbert_economic_reforms
 			duration = 3650
@@ -643,6 +673,12 @@ country_event = {
 	}
 	option = {		# Concentrate on Trade Reforms
 		name = "flavor_fra.EVTOPTB3124"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = colbert_trade_reforms
 			duration = 3650
@@ -1197,6 +1233,12 @@ country_event = {
 
 	option = {		# Let him Reform
 		name = "flavor_fra.EVTOPTA3141"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_stability = -1
 		add_country_modifier = {
 			name = turgots_economic_reforms
@@ -1361,6 +1403,12 @@ country_event = {
 
 	option = {		# Excellent
 		name = "EXCELLENT"
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_dip_power = 25
 		add_prestige = 10
 	}
@@ -1393,6 +1441,12 @@ country_event = {
 		add_dip_power = 100
 		add_papal_influence = -10
 		add_innovativeness_big_effect = yes
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 	}
 }
 
@@ -1422,6 +1476,12 @@ country_event = {
 	option = {		# Excellent
 		name = "EXCELLENT"
 		add_stability_or_adm_power = yes
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_prestige = 5
 		add_innovativeness_small_effect = yes
 	}
@@ -1454,6 +1514,12 @@ country_event = {
 		add_adm_power = 30
 		add_legitimacy = 10
 		add_innovativeness_big_effect = yes
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 	}
 }
 
@@ -1661,7 +1727,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -1686,6 +1751,12 @@ country_event = {
 	option = {
 		name = "flavor_fra.8.a" #
 		add_prestige = 10
+		hidden_effect = {
+			FROM = {
+				add_truce_with = ROOT
+			}
+		}
+		add_truce_with = FROM
 		177 = {
 			cede_province = FRA
 			hidden_effect = { add_local_autonomy = -50 }
