@@ -28,7 +28,8 @@ for (const filename of files) {
   console.log(filename, 'copied')
 }
 
-fs.removeSync(path.join(__dirname, 'diff'))
+fs.emptyDirSync(path.join(__dirname, 'diff'))
+execSync('git checkout HEAD -- diff')
 execSync(`git add .`)
 execSync(`git commit -am ${version}`)
 execSync('node diff ' + version)
