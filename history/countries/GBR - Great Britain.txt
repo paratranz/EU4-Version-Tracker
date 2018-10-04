@@ -19,9 +19,6 @@ capital = 236	# London
 
 1580.1.1 = { decision = enlist_privateers }
 
-
-1651.12.30 = { decision = establish_british_merchant_navy }
-
 #1660.5.29 = { decision = tenures_abolition_act }
 
 1673.1.1 = { decision = test_act }
@@ -109,7 +106,6 @@ capital = 236	# London
 #1718.1.1 = { leader = {	name = "Georg Byng"		type = admiral	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1750.4.7 } } # Removed /SWÖ
 
 1725.1.1 = { 
-		decision = acknowledge_britanna_rules_the_waves
 		leader = {	name = "Edward Boscawen"	type = admiral	fire = 4	shock = 3	manuever = 5	siege = 0	death_date = 1761.1.10 } }
 
 1727.6.11 = {

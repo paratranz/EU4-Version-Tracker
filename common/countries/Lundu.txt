@@ -49,7 +49,6 @@ monarch_names = {
 	
 	"Omugo #0" = -1
 	"Chitundu #0" = -1
-	"Nyalak #0" = -1
 }
 
 leader_names = {

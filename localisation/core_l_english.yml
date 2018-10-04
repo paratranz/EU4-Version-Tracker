@@ -729,6 +729,7 @@
  UNSAFE_EXPLANATION:0 "Show or hide games that were saved with a different version of EU4 or with DLC or mods that are not currently enabled."
  AUTOSAVE_TOCLOUD:0 "Autosave to cloud"
  COMPRESS_AUTOSAVES:0 "Compress Autosaves"
+ RICH_PRESENCE:0 "Rich presence"
  AUTOPAUSE_ON_EVENTS:0 "Pause on events"
  TRANSFER_SAVEGAME:0 "Transferring savegame: $NAME|Y%$"
  LOADING_SAVEGAME:0 "Loading savegame: $NAME|Y%$"

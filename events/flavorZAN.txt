@@ -289,6 +289,12 @@ country_event = {
 			name = "Suleiman"
 			claim = 80
 		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
 		#add_legitimacy = -20
 		set_ruler_flag = zan_muhammad_and_suleiman
 		hidden_effect = {
@@ -309,6 +315,12 @@ country_event = {
 			name = "Muhammad"
 			dynasty = "al-Mazlum"
 			claim = 80
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		#add_legitimacy = -20
 		set_ruler_flag = zan_muhammad_and_suleiman

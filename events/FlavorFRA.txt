@@ -167,6 +167,7 @@ country_event = {
 					area = naples_area
 					area = calabria_area
 					area = apulia_area
+					province_id = 120
 				}
 				OR = {
 					owned_by = NAP 
@@ -1158,7 +1159,7 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "André Hercule de Fleury"
-			culture = occitan
+			culture = occitain
 			religion = catholic
 			discount = yes
 			skill = 2

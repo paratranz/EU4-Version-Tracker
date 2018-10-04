@@ -834,6 +834,12 @@ country_event = {
 		define_ruler = {
 			dynasty = "von Hohenzollern"
 		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
 	}
 	
 }
@@ -908,6 +914,12 @@ country_event = {
 				break_union = BRA
 				define_ruler = {
 					dynasty = "von Hohenzollern"
+				}
+				if = {
+					limit = {
+						has_states_general_mechanic = yes
+					}
+					change_statists_vs_orangists = 200
 				}
 			}
 			remove_casus_belli = {

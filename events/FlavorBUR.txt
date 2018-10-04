@@ -1628,7 +1628,7 @@ country_event = {
 			}
 			release = NED
 			NED = {
-				change_government = republic
+				change_government_via_reform = republic
 				add_government_reform = dutch_republic
 			}
 			every_owned_province = {
@@ -2108,6 +2108,12 @@ country_event = {
 				}
 				if = {
 					limit = {
+						has_states_general_mechanic = yes
+					}
+					change_statists_vs_orangists = 200
+				}
+				if = {
+					limit = {
 						has_dlc = "Rights of Man" 
 					}
 					hidden_effect = { add_ruler_personality = kind_hearted_personality }
@@ -2163,7 +2169,7 @@ country_event = {
 				}
 				random = {
 					chance = 20
-					change_government = republic
+					change_government_via_reform = republic
 					add_government_reform = merchant_republic
 				}
 			}
@@ -2174,7 +2180,7 @@ country_event = {
 				}
 				random = {
 					chance = 20
-					change_government = republic
+					change_government_via_reform = republic
 					add_government_reform = administrative_republic
 				}
 			}

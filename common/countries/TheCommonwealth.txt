@@ -44,7 +44,6 @@ monarch_names = {
 	"Henryk #0" = 20
 	"Jan #0" = 20
 	"Jan #0 Kazimierz" = 20
-	"Jan #0 Kazimierz" = 20
 	"Michal #0" = 20
 	"Stefan #0" = 20
 	"Zygmunt #0" = 20

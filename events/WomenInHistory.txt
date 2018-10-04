@@ -65,6 +65,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
@@ -144,6 +150,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = expansionist_personality }
@@ -218,6 +230,12 @@ country_event = {
 				mil = 5
 				female = yes
 			}
+			if = {
+				limit = {
+					has_states_general_mechanic = yes
+				}
+				change_statists_vs_orangists = 200
+			}
 		}
 		else_if = {
 			limit = {
@@ -247,6 +265,12 @@ country_event = {
 				dip = 4
 				mil = 5
 				female = yes
+			}
+			if = {
+				limit = {
+					has_states_general_mechanic = yes
+				}
+				change_statists_vs_orangists = 200
 			}
 		}
 	}
@@ -317,6 +341,12 @@ country_event = {
 			dip = 5
 			mil = 4
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -443,6 +473,12 @@ country_event = {
 			adm = 2
 			dip = 3
 			mil = 3
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -922,6 +958,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = careful_personality }
@@ -987,6 +1029,12 @@ country_event = {
 			dip = 3
 			mil = 2
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -1211,6 +1259,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = entrepreneur_personality }
@@ -1286,6 +1340,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = tactical_genius_personality }
@@ -1358,6 +1418,12 @@ country_event = {
 			DIP = 4
 			ADM = 3
 			MIL = 3
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -1764,6 +1830,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = righteous_personality }
@@ -1911,6 +1983,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = silver_tongue_personality }
@@ -1982,6 +2060,12 @@ country_event = {
 			dip = 2
 			mil = 4
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		add_corruption = 1
 		if = {
@@ -2270,6 +2354,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = well_connected_personality }
@@ -2497,6 +2587,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = intricate_web_weaver_personality }
@@ -2618,6 +2714,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = well_connected_personality }
@@ -2682,6 +2784,12 @@ country_event = {
 			DIP = 4
 			MIL = 5
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -3134,6 +3242,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = benevolent_personality }
@@ -3457,6 +3571,12 @@ country_event = {
 			dip = 4
 			mil = 3
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -4041,6 +4161,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = silver_tongue_personality }
@@ -4106,6 +4232,12 @@ country_event = {
 			dip = 3
 			mil = 3
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -4181,6 +4313,12 @@ country_event = {
 			dip = 3
 			mil = 3
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -4262,6 +4400,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = pious_personality }
@@ -4337,6 +4481,12 @@ country_event = {
 			dip = 4
 			mil = 2
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -4426,6 +4576,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = industrious_personality }
@@ -4497,6 +4653,12 @@ country_event = {
 			dip = 4
 			mil = 3
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -4762,6 +4924,12 @@ country_event = {
 				mil = 3
 				female = yes
 			}
+			if = {
+				limit = {
+					has_states_general_mechanic = yes
+				}
+				change_statists_vs_orangists = 200
+			}
 			hidden_effect = {
 				add_ruler_personality = righteous_personality
 				add_ruler_personality = intricate_web_weaver_personality
@@ -4847,6 +5015,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = careful_personality }
@@ -4914,6 +5088,12 @@ country_event = {
 			dip = 4
 			mil = 2
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -5178,6 +5358,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = industrious_personality }
@@ -5208,6 +5394,12 @@ country_event = {
 			dip = 4
 			mil = 3
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -5242,6 +5434,12 @@ country_event = {
 			dip = 3
 			mil = 4
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -5316,6 +5514,12 @@ country_event = {
 			dip = 3
 			mil = 2
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -5513,6 +5717,12 @@ country_event = {
 			dip = 4
 			mil = 4
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -5826,6 +6036,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
@@ -6008,6 +6224,12 @@ country_event = {
 			dip = 4
 			mil = 3
 			female = yes
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {
@@ -6196,6 +6418,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
@@ -6282,6 +6510,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = incorruptible_personality }
@@ -6363,6 +6597,12 @@ country_event = {
 				dip = 4
 				mil = 3
 				female = yes
+			}
+			if = {
+				limit = {
+					has_states_general_mechanic = yes
+				}
+				change_statists_vs_orangists = 200
 			}
 		}
 		if = {

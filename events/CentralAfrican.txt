@@ -665,6 +665,12 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
+		if = {
+			limit = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { add_ruler_personality = righteous_personality }
@@ -891,6 +897,12 @@ country_event = {
 			mil = 4
 			age = 20
 			claim = 70
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		if = {
 			limit = {

@@ -55,7 +55,6 @@ monarch_names = { #Most Monarchs were named with "nori"
 	"Masamichi #0" = 50
 	"Yoshiuji #0" = 50
 	"Sadamura #0" = 50
-	"Sadanori #0" = 50
 	"Shigenori #0" = 50
     "Norihisa #0" = 50
 	"Toku #0" = -5

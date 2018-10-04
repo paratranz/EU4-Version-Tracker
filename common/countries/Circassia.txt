@@ -74,9 +74,9 @@ monarch_names = {
 	"Baachik" = 0
 	"Tachat" = 0
 	"Smbat" = 0
-	Zuliyzhan = -1
-	Susane = -1
-	Babishe = -1
+	"Zuliyzhan" = -1
+	"Susane" = -1
+	"Babishe" = -1
 }
 
 leader_names = { 

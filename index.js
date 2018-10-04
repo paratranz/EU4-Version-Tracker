@@ -1,6 +1,6 @@
 const path = require('path')
 const glob = require('glob')
-const execSync = require('child_process').execSync
+const {execSync} = require('child_process')
 const fs = require('fs-extra')
 const defaultDir = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Europa Universalis IV'
 
@@ -28,5 +28,7 @@ for (const filename of files) {
   console.log(filename, 'copied')
 }
 
+fs.removeSync(path.join(__dirname, 'diff'))
 execSync(`git add .`)
 execSync(`git commit -am ${version}`)
+execSync('node diff ' + version)

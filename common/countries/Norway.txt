@@ -80,7 +80,6 @@ monarch_names = {
 	"Simon #0" = 0
 	"Søren #0" = 0
 	"Tollak #0" = 0
-	"Torhild #0" = 0
 }
 
 leader_names = {

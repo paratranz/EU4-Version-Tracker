@@ -41,7 +41,6 @@ monarch_names = {
 	"Cikombe Yaava #0" = 5
 	"Mulaj a Namwan #0" = 5
 	"Cakasekene Naweej #0" = 5
-	"Mbala #0" = 5
 	"Mbumb #0" = 5
 	"Cimbindu a Kasang #0" = 5
 	"Kangapu Nawej #0" = 5

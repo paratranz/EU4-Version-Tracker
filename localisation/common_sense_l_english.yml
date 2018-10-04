@@ -1003,7 +1003,7 @@
  opinion_smuggling_hindered:0 "Hindered from Smuggling"
  opinion_small_smuggling_ok:0 "Small-scale Smuggling OK"
  si_scutage_unwilling_vassals:0 "Vassals are unwilling to pay scutage"
- si_scutage_unwilling_vassals_desc:0 "There has been a lot of groveling over the scutage lately and we find that not all the expected money finds its ways into our coffers..."
+ desc_si_scutage_unwilling_vassals:0 "There has been a lot of groveling over the scutage lately and we find that not all the expected money finds its ways into our coffers..."
  opinion_embarrasing_loyalists:0 "Loyalist Faux Pas"
  support_loyalists:0 "Overlord Supports Loyalists"
  opinion_cruel_officers:0 "Cruel Officers"

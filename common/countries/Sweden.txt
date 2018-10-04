@@ -91,7 +91,6 @@ monarch_names = {
 	"Hedwig #0" = -5
 	"Katarina #0" = -1
 	"Margareta #0" = -1
-	"Hedwig #0" = -1
 	"Anna #0" = -1
 	"Cecilia #0" = -1
 	"Elisabet #0" = -1

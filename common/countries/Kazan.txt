@@ -43,7 +43,6 @@ monarch_names = {
 	"Safa #0" = 10	
 	"Jan Ali #0" = 10	
 	"Otemesh #0" = 10	
-	"Shah Ali #0" = 10	
 	"Yadigar Muhammad #0" = 10
 	"Ahmyetgali #0" = 1
 	"Airat #0" = 1

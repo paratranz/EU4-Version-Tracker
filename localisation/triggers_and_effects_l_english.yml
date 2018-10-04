@@ -628,3 +628,13 @@
  HIGHER:0 "higher"
  WITH_GOVERNMENT_TYPE:0 "The country they form will have $GOV|Y$ Government."
  WITH_GOVERNMENT_REFORM:0 ""
+ HAVE_LESS_THAN_ADM_POWER_COST_TRIGGER:0 "Have less Administrative Power than $AMOUNT|Y$.\n"
+ HAVE_LESS_THAN_DIP_POWER_COST_TRIGGER:0 "Have less Diplomatic Power than $AMOUNT|Y$.\n"
+ HAVE_LESS_THAN_MIL_POWER_COST_TRIGGER:0 "Have less Military Power than $AMOUNT|Y$.\n"
+ HAVE_MORE_THAN_ADM_POWER_COST_TRIGGER:0 "Have $AMOUNT|Y$ Administrative Power.\n"
+ HAVE_MORE_THAN_DIP_POWER_COST_TRIGGER:0 "Have $AMOUNT|Y$ Diplomatic Power.\n"
+ HAVE_MORE_THAN_MIL_POWER_COST_TRIGGER:0 "Have $AMOUNT|Y$ Military Power than.\n"
+ ADM_POWER_COST_EFFECT:0 "Lose $AMOUNT|-R$ Administrative Power.\n"
+ DIP_POWER_COST_EFFECT:0 "Lose $AMOUNT|-R$ Diplomatic Power.\n"
+ MIL_POWER_COST_EFFECT:0 "Lose $AMOUNT|-R$ Military Power.\n"
+ 

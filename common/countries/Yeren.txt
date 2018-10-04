@@ -123,7 +123,6 @@ monarch_names = {
 	"Doha #0" = 0
 	"Doholon #0" = 0
 	"Doola #0" = 0
-	"Dorgon #0" = 0
 	"Duici #0" = 0
 	"Dulba #0" = 0
 	"Dulei #0" = 0

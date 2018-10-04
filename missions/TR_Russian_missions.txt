@@ -21,9 +21,12 @@ tr_russia_religious_missions = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			OR = {
-				temple = 20
-				cathedral = 20
+			num_of_owned_provinces_with = {
+				value = 20
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
 			}
 		}
 		effect = {
@@ -1184,7 +1187,7 @@ tr_russia_exclusive_3 = {
 	has_country_shield = yes
 	
 	tr_prikazy_mission = {
-		icon = mission_european_church
+		icon = mission_establish_the_prikazy
 		required_missions = { time_of_troubles_mission }
 		position = 9
 		trigger = {
@@ -1238,7 +1241,7 @@ tr_russia_exclusive_3 = {
 	}
 	
 	tr_state_manufactories = {
-		icon = mission_european_church
+		icon = mission_state_manufactories
 		required_missions = { tr_prikazy_mission }
 		trigger = {
 			calc_true_if = {

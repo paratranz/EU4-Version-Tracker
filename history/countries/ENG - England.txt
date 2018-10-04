@@ -700,7 +700,7 @@ national_focus = DIP
 1650.1.1 = { leader = {	name = "George Ayscue"		type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1671.7.19 } }
 
 
-1651.12.30 = { mercantilism = 25 decision = establish_british_merchant_navy } # The Act of Navigation
+1651.12.30 = { mercantilism = 25  } # The Act of Navigation
 
 1658.9.3 = {
 	monarch = {

@@ -52,7 +52,6 @@ monarch_names = {
 	"Tsimalomo  #0" = 5
 	"Andrianaresy  #0" = 5
 	"Andriantsoly  #0" = 5
-	"Andriantsoly  #0" = 5
 	
 	"Ravahiny #0" = -10
 	"Andrianaginarivo #0" = -5

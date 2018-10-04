@@ -207,6 +207,12 @@ country_event = {
 			dynasty = "Gajapati"
 			mil = 5
 		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
+		}
 		random_owned_province = {
 			limit = {
 				has_province_flag = ori_center_of_hamviras_revolt
@@ -242,6 +248,12 @@ country_event = {
 		define_ruler = {
 			name = "Hamvira"
 			dynasty = "Gajapati"
+		}
+		if = {
+			limit = {
+				has_states_general_mechanic = yes
+			}
+			change_statists_vs_orangists = 200
 		}
 		random_owned_province = {
 			limit = {

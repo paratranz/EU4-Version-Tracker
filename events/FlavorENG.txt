@@ -2469,7 +2469,7 @@ country_event = {
 	}
 
 	trigger = {
-		has_country_flag = war_of_the_roses_was_had
+		has_country_flag = war_of_the_roses_ended
 		OR = {
 			dynasty = York
 			dynasty = Lancaster

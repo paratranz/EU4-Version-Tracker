@@ -19,7 +19,7 @@ dh_tim_india = {
 	has_country_shield = yes
 	
 	dh_indian_raid = {
-		icon = mission_indian_soldier_elephant
+		icon = mission_indian_stateman
 		position = 6
 		required_missions = { }
 		
