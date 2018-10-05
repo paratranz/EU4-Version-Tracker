@@ -29,6 +29,7 @@ for (const filename of files) {
 }
 
 fs.emptyDirSync(path.join(__dirname, 'diff'))
+fs.writeFileSync(path.join(__dirname, 'version.txt'), version)
 execSync('git checkout HEAD -- diff')
 execSync(`git add .`)
 execSync(`git commit -am ${version}`)
