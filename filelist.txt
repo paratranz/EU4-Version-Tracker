@@ -8,6 +8,12 @@ decisions/Russia.txt
 decisions/TimuridNation.txt
 decisions/YuanNation.txt
 
+interface/chatfonts.gfx
+interface/contentview.gui
+interface/core.gfx
+interface/countrygovernmentview.gui
+interface/topbar.gui
+
 events/CentralAfrican.txt
 events/ChineseFactions.txt
 events/Dharma_Mission_Events.txt

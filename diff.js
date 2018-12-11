@@ -2,12 +2,7 @@ const path = require('path')
 const fs = require('fs-extra')
 const {execSync} = require('child_process')
 
-const version = process.argv[2]
-
-if (!/^[.\d]+$/.test(version)) {
-  console.error('Please specify a valid version, eg. 1.26.1')
-  process.exit(1)
-}
+const version = fs.readFileSync(path.join(__dirname, 'version.txt'))
 
 const changedFiles = execSync('git diff --name-only HEAD HEAD~1').toString()
   .split(/\r?\n/).filter(file => /\//.test(file) && !/diff\//.test(file))

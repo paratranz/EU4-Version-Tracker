@@ -1,5 +1,5 @@
 {
-  "name": "ck2-original",
+  "name": "eu4-version-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paratranz/CK2-Chinese-Localisation.git"
+    "url": "git+https://github.com/paratranz/EU4-Version-Tracker.git"
   },
   "author": "BruceCzK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paratranz/CK2-Chinese-Localisation/issues"
+    "url": "https://github.com/paratranz/EU4-Version-Tracker/issues"
   },
-  "homepage": "https://github.com/paratranz/CK2-Chinese-Localisation#readme",
+  "homepage": "https://github.com/paratranz/EU4-Version-Tracker#readme",
   "dependencies": {
     "fs-extra": "^7.0.0",
     "glob": "^7.1.3"
