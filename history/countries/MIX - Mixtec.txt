@@ -8,8 +8,8 @@ capital = 847
 
 1440.1.1 = {
 	monarch = {
-		name = "Atonal II"
-		dynasty = "Coixtlahuaca"
+		name = "Jaguar Claw"
+		dynasty = "Tututepec"
 		adm = 1
 		dip = 2
 		mil = 1

@@ -10,6 +10,17 @@ religious_school = shafii_school
 	add_piety = -0.1
 }
 
+1444.1.1 = {
+	monarch = {
+		name = "Jisun"
+		dynasty = "Shi"
+		adm = 2
+		dip = 2
+		mil = 2
+		culture = wu
+	}
+}
+
 1550.1.1 = {
 	monarch = {
 		name = "Tsalenggathu" # Fictional

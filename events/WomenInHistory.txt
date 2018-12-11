@@ -730,23 +730,27 @@ country_event = {
 	title = women_history_events.11.t
 	desc = women_history_events.11.d
 	picture = wihgfx_FEMALE_RULER_eventPicture
+	
+	fire_only_once = yes
 
 	trigger = {
-		tag = CAS
+		OR = {
+			tag = SPA
+			AND = {
+				NOT = {
+					exists = SPA
+				}
+				tag = CAS
+			}
+		}
 		is_year = 1450
 		NOT = {
 			is_year = 1504
 		}
 		has_regency = no
-		is_female = no
-		has_consort = no
-		has_heir = no
 		has_government_attribute = heir
 		is_lesser_in_union = no
 		government = monarchy
-		NOT = {
-			has_global_flag = wih_isabella_castile_flag
-		}
 		NOT = {
 			has_disaster = castilian_civil_war
 		}
@@ -754,12 +758,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 1000
-	}
-	
-	immediate = {
-		hidden_effect = {
-			set_global_flag = wih_isabella_castile_flag
-		}
 	}
 	
 	option = {
@@ -1702,7 +1700,7 @@ country_event = {
 			type = commandant
 			skill = 2
 			name = "Siti Wan Kembang"
-			culture = malay
+			culture = malayan
 			discount = yes
 		}
 	}
@@ -3701,6 +3699,7 @@ country_event = {
 	picture = wihgfx_FEMALES_eventPicture
 
 	trigger = {
+		NOT = { has_dlc = "Golden Century" }
 		OR = {
 			owns = 1751
 			owns = 334
@@ -4994,7 +4993,7 @@ country_event = {
 		define_advisor = {
 			name = "Tun Fatimah"
 			type = army_organiser
-			culture = malay
+			culture = malayan
 			discount = yes
 			skill = 2
 			female = yes
@@ -5006,7 +5005,7 @@ country_event = {
 		define_ruler = {
 			name = "Tun Fatimah"
 			dynasty = "Srivijaya"
-			culture = malay
+			culture = malayan
 			fixed = yes
 			adm = 3
 			dip = 4
@@ -5338,7 +5337,7 @@ country_event = {
 		define_advisor = {
 			name = "Ratu Hijau"
 			discount = yes
-			culture = malay
+			culture = malayan
 			type = statesman
 			skill = 2
 			female = yes
@@ -5350,7 +5349,7 @@ country_event = {
 			name = "Ratu Hijau"
 			dynasty = "Inland"
 			fixed = yes
-			culture = malay
+			culture = malayan
 			adm = 4
 			dip = 3
 			mil = 3
@@ -5376,7 +5375,7 @@ country_event = {
 		add_mil_power = 100
 		define_advisor = {
 			name = "Ratu Biru"
-			culture = malay
+			culture = malayan
 			type = diplomat
 			discount = yes
 			skill = 2
@@ -5388,7 +5387,7 @@ country_event = {
 		define_ruler = {
 			name = "Ratu Biru"
 			dynasty = "Inland"
-			culture = malay
+			culture = malayan
 			fixed = yes
 			adm = 3
 			dip = 4
@@ -5417,7 +5416,7 @@ country_event = {
 		define_advisor = {
 			name = "Ratu Ingu"
 			type = commandant
-			culture = malay
+			culture = malayan
 			skill = 2
 			discount = yes
 			female = yes
@@ -5428,7 +5427,7 @@ country_event = {
 		define_ruler = {
 			name = "Ratu Ingu"
 			dynasty = "Inland"
-			culture = malay
+			culture = malayan
 			fixed = yes
 			adm = 3
 			dip = 3

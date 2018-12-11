@@ -94,6 +94,32 @@ leader_names = {
 	Tavares Torres
 	Veiga Vieira
 	Xavier
+	
+	"de Anchieta"
+	Medeiros
+	Rodrigues
+	"de Sá"
+	Coelho
+	Pereira
+	Barbosa
+	Maria
+	Raposo
+	"de Camargo"
+	Almeida
+	Bocaiúva
+	Machado
+	"de Assis"
+	Pinheiro
+	Gonzaga
+	"de Azevedo"
+	Coutinho
+	Gato
+	Leite
+	Negreiros
+	Furtado
+	"de Deus"
+	Silvestre
+	
 }
 
 ship_names = {

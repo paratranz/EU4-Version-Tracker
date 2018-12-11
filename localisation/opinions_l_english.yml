@@ -210,3 +210,7 @@
  resisted_polish_interference:0 "Resisted Polish Interference"
  supported_prussian_confederation:0 "Supported Prussian Confederation"
  allowed_kalmyk_settlement:0 "Allowed Kalmyk Settlement"
+ opinion_aragon_protector:0 "Iberian Protector"
+ anglo_portuguese_alliance:0 "Anglo-Portuguese Alliance"
+ opinion_defected_privateer:0 "Defected Privateer"
+ opinion_sublimis_deus:0 "Sublimis Deus"
