@@ -2,7 +2,7 @@ const path = require('path')
 const glob = require('glob')
 const {execSync} = require('child_process')
 const fs = require('fs-extra')
-const defaultDir = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Europa Universalis IV'
+const defaultDir = fs.readFileSync('./gamedir.txt')
 
 const version = fs.readFileSync(path.join(__dirname, 'version.txt'))
 const gameDir = process.argv[2] || defaultDir
