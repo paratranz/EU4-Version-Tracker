@@ -44,6 +44,18 @@ religious_school = maliki_school
 	}
 }
 
+#Not really then, just put him here so that Yusuf V displays as Yusuf V
+1410.12.1 = {
+	monarch = {
+		name = "Yûsuf IV"
+		dynasty = "Nasrid"
+		birth_date = 1376.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
 1411.1.1 = {
 	heir = {
 		name = "Muhammad"

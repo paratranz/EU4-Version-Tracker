@@ -27,7 +27,7 @@
  TUT_BAS_CHAPTER01_DESC:0 "In this chapter you will learn about the very basics of how to play the game. This includes how you control the §Mcamera§! and the §Mgame speed§!."
  TUT_BAS_CHAPTER01_PAGE01_TITLE:0 "§YIntroduction (1/8)§!"
  TUT_BAS_CHAPTER01_PAGE01_TEXT:0 "You can minimize this interface at any time by clicking the §MMinimize§! button. To show it again, simply click the §MMaximize§! button."
- TUT_BAS_CHAPTER01_PAGE01_OBJECTIVES:0 "Click §MNext§! to continue.§!"
+ TUT_BAS_CHAPTER01_PAGE01_OBJECTIVES:0 "Click §MNext§! to continue."
  TUT_BAS_CHAPTER01_PAGE02_TITLE:0 "§YTime (2/8)§!"
  TUT_BAS_CHAPTER01_PAGE02_TEXT:0 "You can at any time pause the game by pressing the §MSpacebar§! button or by clicking the §MTime Control Interface§!. You can speed up or slow down the game by using the Time Control Interface or pressing the '§M+§!' (plus) button or '§M-§!' (minus) button on your keyboard."
  TUT_BAS_CHAPTER01_PAGE02_OBJECTIVES:0 "§MUnpause§! the game and wait until the 1st of January to continue."

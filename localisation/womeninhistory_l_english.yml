@@ -327,7 +327,7 @@
  women_history_events.79.b:0 "Her sacrifice will be honored by us."
  women_history_events.79.c:0 "More land for us!"
  women_history_events.80.t:0 "The Colorful Queens"
- women_history_events.80.d:0 ""The Green Queen" Ratu Hijau is the eldest daughter of Mansur Shah of Malacca and after her brother's murder she has worked hard to become queen of $COUNTRY$. After twenty years of unstable rule, she promises stability and prosperity. While her brother ruled, she tried to influence him into becoming well-disposed to merchants, create a [Root.GetAdjective] lingua franca and restore the country to greater glory, something she now promises will be realized under her rule. Her younger sisters Ratu Biru - the "Blue Queen" - and Ratu Ingu - the "Purple Queen" - supports her even though both could become queens in their own rights."
+ women_history_events.80.d:0 ""The Green Queen" Ratu Hijau is the eldest daughter of Mansur Shah of Malacca and after her brother's murder she has worked hard to become queen of $COUNTRY$. After twenty years of unstable rule, she promises stability and prosperity. While her brother ruled, she tried to influence him into becoming well-disposed to merchants, create a single [Root.GetAdjective] lingua franca and restore the country to greater glory, something she now promises will be realized under her rule. Her younger sisters Ratu Biru - the "Blue Queen" - and Ratu Ingu - the "Purple Queen" - supports her even though both could become queens in their own rights."
  women_history_events.80.a:0 "Ratu Hijau will become advisor, not queen."
  women_history_events.80.b:0 "Our new ruler is Ratu Hijau."
  women_history_events.80.c:0 "Appoint Ratu Biru as diplomat."

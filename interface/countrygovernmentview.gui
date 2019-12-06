@@ -636,11 +636,11 @@ guiTypes = {
 				}
 				if_resolution = {
 					min_height = 868
-					max_height = 1047
+					max_height = 1051
 					size = { x = 226 y = 301 }
 				}
 				if_resolution = {
-					min_height = 1048
+					min_height = 1052
 					size = { x = 226 y = 480 }
 				}
 			}
@@ -710,11 +710,11 @@ guiTypes = {
 				}
 				if_resolution = {
 					min_height = 868
-					max_height = 1047
+					max_height = 1051
 					size = { x = 226 y = 301 }
 				}
 				if_resolution = {
-					min_height = 1048
+					min_height = 1052
 					size = { x = 226 y = 480 }
 				}
 			}
@@ -1666,3 +1666,4 @@ guiTypes = {
 			scale = 0.5
 		}
 	}
+}

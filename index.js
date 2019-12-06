@@ -2,9 +2,9 @@ const path = require('path')
 const glob = require('glob')
 const {execSync} = require('child_process')
 const fs = require('fs-extra')
-const defaultDir = fs.readFileSync('./gamedir.txt')
+const defaultDir = fs.readFileSync('./gamedir.txt').toString()
 
-const version = fs.readFileSync(path.join(__dirname, 'version.txt'))
+const version = fs.readFileSync(path.join(__dirname, 'version.txt')).toString().trim()
 const gameDir = process.argv[2] || defaultDir
 
 if (!/^[.\d]+$/.test(version)) {

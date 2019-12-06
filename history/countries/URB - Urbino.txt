@@ -21,8 +21,8 @@ add_army_professionalism = 0.05
 
 1377.1.1 = {
 	heir = {
-		name = "Gidantonio"
-		monarch_name = "Gidantonio I"
+		name = "Guidantonio"
+		monarch_name = "Guidantonio I"
 		dynasty = "da Montefeltro"
 		birth_date = 1377.1.1 
 		death_date = 1443.2.1
@@ -35,7 +35,7 @@ add_army_professionalism = 0.05
 
 1404.1.1 = {
 	monarch = {
-		name = "Gidantonio I"
+		name = "Guidantonio I"
 		dynasty = "da Montefeltro"
 		dip = 2
 		adm = 1
@@ -69,8 +69,8 @@ add_army_professionalism = 0.05
 
 1443.2.1 = {
 	heir = {
-		name = "Federigo"
-		monarch_name = "Federigo III"
+		name = "Federico"
+		monarch_name = "Federico III"
 		dynasty = "da Montefeltro"
 		birth_date = 1422.6.7
 		death_date = 1482.9.10
@@ -83,7 +83,7 @@ add_army_professionalism = 0.05
 
 1444.7.22 = {
 	monarch = {
-		name = "Federigo III"
+		name = "Federico III"
 		dynasty = "da Montefeltro"
 		birth_date = 1422.6.7
 		adm = 4

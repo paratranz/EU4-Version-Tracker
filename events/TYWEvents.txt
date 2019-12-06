@@ -24,7 +24,7 @@ country_event = {
 		any_known_country = {
 			is_part_of_hre = yes
 			religion = protestant
-			government = theocracy
+			has_reform = leading_clergy_reform
 		}
 	}
 
@@ -38,7 +38,7 @@ country_event = {
 			limit = {
 				is_part_of_hre = yes
 				religion = protestant
-				government = theocracy
+				has_reform = leading_clergy_reform
 			}
 			add_opinion = {
 				who = ROOT
@@ -163,7 +163,7 @@ province_event = {
 	}
 
 	option = {
-		trigger = { has_idea = privateers }
+		trigger = { owner = { has_idea = privateers } }
 		name = "tyw_events.5.b"
 		owner = { add_dip_power = -25 }
 	}
@@ -534,7 +534,7 @@ country_event = {
 			religion = protestant
 			religion = reformed
 		}
-		NOT = { has_country_flag = supported_huguenots }
+		NOT = { has_country_flag = support_huguenots_decision }
 		FRA = {
 			NOT = { has_country_flag = FRA_had_event_3128 }
 			owns = 4111
@@ -549,6 +549,12 @@ country_event = {
 		months = 80
 	}
 
+	immediate = {
+		hidden_effect = {
+			set_country_flag = support_huguenots_decision
+		}
+	}
+	
 	option = {
 		name = "tyw_events.12.a"
 		tooltip = {
